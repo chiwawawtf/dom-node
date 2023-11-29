@@ -1,7 +1,7 @@
 class DomNode {
 
     constructor(nodeType) {
-        return this.create(nodeType);
+        this.create(nodeType);
     }
 
     create(nodeType) {
